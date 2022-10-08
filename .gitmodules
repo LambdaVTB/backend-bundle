@@ -1,0 +1,9 @@
+[submodule "worker"]
+	path = worker
+	url = git@github.com:LambdaVTB/backend-worker.git
+[submodule "employee"]
+	path = employee
+	url = git@github.com:LambdaVTB/backend-api-employee.git
+[submodule "migrations"]
+	path = migrations
+	url = git@github.com:LambdaVTB/backend-migrations.git
