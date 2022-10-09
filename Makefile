@@ -1,3 +1,6 @@
+include employee/.env
+export
+
 run-bundle:
 	@make run-migrations
 	@make run-workers
