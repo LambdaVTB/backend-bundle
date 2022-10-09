@@ -1,6 +1,11 @@
 include employee/.env
 export
 
+update:
+	cd migrations && git pull origin main
+	cd worker && git pull origin main
+	cd employee && git pull origin main
+
 run-bundle:
 	@make run-migrations
 	@make run-workers
