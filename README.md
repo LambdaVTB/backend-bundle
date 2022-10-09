@@ -1,1 +1,3 @@
-# backend-bundle
+# Монолитная сборка
+## Запуск
+1) `make run-bundle`

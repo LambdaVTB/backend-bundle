@@ -19,3 +19,8 @@ run-workers:
 
 run-service:
 	cd employee && docker-compose up -d
+
+down:
+	cd migrations && docker-compose down
+	cd worker && docker-compose down
+	cd employee && docker-compose down
